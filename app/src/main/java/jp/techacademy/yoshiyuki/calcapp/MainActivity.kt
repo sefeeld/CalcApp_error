@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             num3 = 4
         }
 
-        val intent = Intent(this, SecondActivity::class.java)
+        val intent = Intent(this, CalcActivity::class.java)
         //editText1の値
         intent.putExtra("VALUE1", num1)
         //editText2の値
